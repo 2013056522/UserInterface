@@ -59,6 +59,28 @@ input{
 	bottom:60%;
 	text-align: left;
 	}
+	
+.login_reg{
+	position:relative;
+	Height: 100%;
+	width: 100%;
+	left: 25%;
+	top: 0;	
+	bottom: 40%;
+	
+	}
+		
+.intro_reg{
+	position: relative;
+	right:25%;
+	width:100%;
+	text-align: center;
+	height: 18%;
+	top: 10%;
+	background-color: rgba(0, 0, 0, .5);
+	
+	}
+	
 .intro h4{
 	text-indent: 30%;
 	
@@ -69,6 +91,28 @@ input{
 	}
 .intro h2{
 	text-indent: 22%;
+	
+}	
+
+h5 {
+	display: inline-block;
+	text-indent: 10%;
+	color: white;
+	text-decoration: none;
+
+	font-size: 30px;
+}
+
+h5  > a{
+	color: white;	
+	background-color: rgba(0, 0, 0, .7)
+
+}
+
+h5 > a:hover{
+
+	background: white;
+	color: black;
 	
 }
 	
@@ -88,6 +132,7 @@ input{
 	-webkit-box-shadow: 0 0 20px #191918;
 	-o-box-shadow: 0 0 20px #191918;
 	box-shadow: 0 0 20px #191918;
+
 }
 /* INDEX */
 
@@ -110,11 +155,11 @@ input{
 
 .footer {
 	z-index: 1;
-	background-color: rgba(0, 0, 0, .7		);
+	background-color: rgba(0, 0, 0, .7	);
 	position: absolute;
 	height: 30px;
 	width: auto;
-	top: 120%;
+	top: 135%;
 	left: 0;
 	right: 0;
 	-moz-box-shadow: 0 0 20px #191918;
@@ -166,8 +211,9 @@ input{
 	position: fixed;
 	left: 0;
 	right: 0;
-	height:120%;
-	width:100;
+	height:100%;
+	width:100%;
+	bottom: %;
 	background-color:  rgba(0, 0, 0, .5);
 	
 }
@@ -180,16 +226,16 @@ input{
 	font-size: 48px;
 	font-family:franklin gothic medium;
 	top:30%;
-	bottom: 20;
+	bottom: 20%;
 	text-indent: 15%;
 	background-color: rgba(0, 0, 0, .4);
 }
 
 #content{
 	position:relative;
-	height:30%;
+	height:40%;
 	width:100%;
-	background-color:#FFF4ED;
+	background-color: #FFF2E3;
 	top:20%;
 
 }
@@ -204,14 +250,328 @@ input{
 	font-size: 100px;
 	font-family: Vivaldi;
 }
-
-#innercontent2{
+	
+.innercontent2{
 	position:relative;
 	color: #040405;
-	top: 20%;
+	top: 10%;
 	height: 30%;
-	width: 30%;
-	text-indent: 20%;
+	width: 50%;
+	text-indent: 15%;
+	margin:auto;
+	font-family:Bodoni MT Condensed;
+	font-size: 22px;
+
+}
+
+/*BUSINESSES*/
+
+.contentContainer2{
+	background-color: #f2f2ed;
+	position: absolute;
+	left: 0;
+	right: 0;
+	height:120%	;
+	width:100%;	
+	background-color:  rgba(0, 0, 0, .5);
+	
+}
+
+#intro2{
+	position:relative;
+	height:10%;
+	width:100%;
+	color: white;
+	font-size: 48px;
+	font-family:franklin gothic medium;
+	top:10%;
+	
+	text-indent: 15%;
+	background-color: rgba(0, 0, 0, .4);
+}
+
+#content2{
+	position:relative;
+	height:100%;
+	width:100%;
+	background-color: ;	
+}
+
+#innercontentb2{
+	position:relative;
+	color: #040405;
+	top: 15%;
+	height: 25%;
+	width: 20%;
+	margin-left: 7%;
+	margin-right: 2%;
+	text-indent: 10%;
 	font-size: 100px;
 	font-family: Vivaldi;
+	background-color: white;
+	display:inline-block;
+	overflow: hidden;
+	background: url(Automotive.jpg) no-repeat;
+	background-size: cover;
+	-moz-box-shadow: 0 0 20px #191918;
+	-webkit-box-shadow: 0 0 20px #191918;
+	-o-box-shadow: 0 0 20px #191918;
+	box-shadow: 0 0 30px #191918;
 }
+
+#innercontentc2{
+	position:relative;
+	color: #040405;
+	top: 15%;
+	height: 25%;
+	width: 20%;
+	text-indent: 10%;
+	overflow: hidden;
+	margin-right: 2%;
+	font-size: 100px;
+	font-family: Vivaldi;
+	background-color: white;
+	display:inline-block;
+	background: url(Technology.jpg) no-repeat;
+	background-size: cover;
+	-moz-box-shadow: 0 0 20px #191918;
+	-webkit-box-shadow: 0 0 20px #191918;
+	-o-box-shadow: 0 0 20px #191918;
+	box-shadow: 0 0 30px #191918;
+}
+
+#innercontentd2{
+	position:relative;
+	color: #040405;
+	top: 15%;
+	height: 25%;
+	width: 20%;
+	margin-right: 2%;
+	text-indent: 10%;
+	font-size: 100px;
+	font-family: Vivaldi;
+	background-color: white;
+	display:inline-block;
+	overflow: hidden;
+	background: url(Clothing.jpg) no-repeat;
+	background-size: cover;
+	-moz-box-shadow: 0 0 20px #191918;
+	-webkit-box-shadow: 0 0 20px #191918;
+	-o-box-shadow: 0 0 20px #191918;
+	box-shadow: 0 0 30px #191918;
+}
+
+#innercontente2{
+	position:relative;
+	color: #040405;
+	top: 15%;
+	height: 25%;
+	width: 20%;
+	font-size: 100px;
+	text-indent: 10%;
+	font-family: Vivaldi;
+	background-color: white;
+	display:inline-block;
+	overflow: hidden;
+	background: url(Realestate.jpg) no-repeat;
+	background-size: cover;
+	-moz-box-shadow: 0 0 20px #191918;
+	-webkit-box-shadow: 0 0 20px #191918;
+	-o-box-shadow: 0 0 20px #191918;
+	box-shadow: 0 0 30px #191918;
+}
+
+/*hover-effect business*/
+p {
+  position: absolute;
+  left: 0%;
+  margin: 0;
+  top: -200px;
+  font: bold 50px/1 Helvetica, sans-serif;
+  color: white;
+  background-color:rgba(0, 0, 0, .4);
+  height:100%;
+  width: 100%;
+  
+}
+small {
+  font-size: 20px;
+  
+}
+
+h6{
+	font-size: 15px;
+	font-style: bold;
+
+	}
+a {
+	text-decoration: none;
+}
+	
+
+	/*Hover Here Text*/
+p:nth-child(1){
+  top: 80%;
+  left: 10%;
+  -webkit-transition: top 1s ease;
+     -moz-transition: top 1s ease;
+       -o-transition: top 1s ease;
+      -ms-transition: top 1s ease;
+          transition: top 1s ease;
+}
+ 
+#innercontentb2:hover p:nth-child(1) {
+  top: -100px;
+}
+#innercontentc2:hover p:nth-child(1) {
+  top: -100px;
+}
+#innercontentd2:hover p:nth-child(1) {
+  top: -100px;
+}
+#innercontente2:hover p:nth-child(1) {
+  top: -100px;
+}
+
+	/*Greetings Hover*/
+#innercontentb2:hover p:nth-child(2) {
+  top: 40px;
+  -webkit-transition: top 1s ease 1s;
+     -moz-transition: top 1s ease 1s;
+       -o-transition: top 1s ease 1s;
+      -ms-transition: top 1s ease 1s;
+          transition: top 1s ease 1s;
+}
+#innercontentc2:hover p:nth-child(2) {
+  top: 50px;
+  -webkit-transition: top 1s ease 1s;
+     -moz-transition: top 1s ease 1s;
+       -o-transition: top 1s ease 1s;
+      -ms-transition: top 1s ease 1s;
+          transition: top 1s ease 1s;
+}
+#innercontentd2:hover p:nth-child(2) {
+  top: 50px;
+  -webkit-transition: top 1s ease 1s;
+     -moz-transition: top 1s ease 1s;
+       -o-transition: top 1s ease 1s;
+      -ms-transition: top 1s ease 1s;
+          transition: top 1s ease 1s;
+}
+#innercontente2:hover p:nth-child(2) {
+  top: 30px;
+  -webkit-transition: top 1s ease 1s;
+     -moz-transition: top 1s ease 1s;
+       -o-transition: top 1s ease 1s;
+      -ms-transition: top 1s ease 1s;
+          transition: top 1s ease 1s;
+}
+ 
+	/*How Are You? Hover*/
+#innercontentb2:hover p:nth-child(3) {
+  top: 100px;
+  -webkit-transition: top 1s ease 2s;
+     -moz-transition: top 1s ease 2s;
+       -o-transition: top 1s ease 2s;
+      -ms-transition: top 1s ease 2s;
+          transition: top 1s ease 2s;
+	text-indent: 18;
+	left: 5%;
+}
+
+#innercontentb2:hover p:nth-child(4) {
+  top: 215px;
+  -webkit-transition: top 1s ease 2s;
+     -moz-transition: top 1s ease 2s;
+       -o-transition: top 1s ease 2s;
+      -ms-transition: top 1s ease 2s;
+          transition: top 1s ease 2s;
+	left: 65%;
+	
+}
+
+#innercontentc2:hover p:nth-child(3) {
+  top: 100px;
+  -webkit-transition: top 1s ease 2s;
+     -moz-transition: top 1s ease 2s;
+       -o-transition: top 1s ease 2s;
+      -ms-transition: top 1s ease 2s;
+          transition: top 1s ease 2s;
+	text-indent: 18;
+	left: 5%;	
+}
+#innercontentc2:hover p:nth-child(4) {
+  top: 215px;
+  -webkit-transition: top 1s ease 2s;
+     -moz-transition: top 1s ease 2s;
+       -o-transition: top 1s ease 2s;
+      -ms-transition: top 1s ease 2s;
+          transition: top 1s ease 2s;
+	
+	left: 65%;
+}
+
+#innercontentd2:hover p:nth-child(3) {
+  top: 100px;
+  -webkit-transition: top 1s ease 2s;
+     -moz-transition: top 1s ease 2s;
+       -o-transition: top 1s ease 2s;
+      -ms-transition: top 1s ease 2s;
+          transition: top 1s ease 2s;
+	text-indent: 18;
+	left: 5%;
+}
+#innercontentd2:hover p:nth-child(4) {
+  top: 215px;
+  -webkit-transition: top 1s ease 2s;
+     -moz-transition: top 1s ease 2s;
+       -o-transition: top 1s ease 2s;
+      -ms-transition: top 1s ease 2s;
+          transition: top 1s ease 2s;
+	left: 65%;
+
+}
+
+#innercontente2:hover p:nth-child(3) {
+  top: 70px;
+  -webkit-transition: top 1s ease 2s;
+     -moz-transition: top 1s ease 2s;
+       -o-transition: top 1s ease 2s;
+      -ms-transition: top 1s ease 2s;
+          transition: top 1s ease 2s;
+	text-indent: 18;
+	left: 5%;
+}
+#innercontente2:hover p:nth-child(4) {
+  top: 215px;
+  -webkit-transition: top 1s ease 2s;
+     -moz-transition: top 1s ease 2s;
+       -o-transition: top 1s ease 2s;
+      -ms-transition: top 1s ease 2s;
+          transition: top 1s ease 2s;
+	left: 65%;
+
+}
+ 
+	/*Hover Out Transitions*/
+p:nth-child(3), p:nth-child(2) {
+  -webkit-transition: top 0.2s ease 0s;
+     -moz-transition: top 0.2s ease 0s;
+       -o-transition: top 0.2s ease 0s;
+      -ms-transition: top 0.2s ease 0s;
+          transition: top 0.2s ease 0s;
+}
+
+/*hover-effect business-END*/
+
+/*REGISTRATION*/
+table{
+	position:relative;	
+	background-color:rgba(0, 0, 0, .4);
+	bottom: 20%;
+	top: 10%;
+	}
+	
+h3 > i{
+	text-align: left;
+	}
