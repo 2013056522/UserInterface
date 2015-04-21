@@ -143,3 +143,29 @@ function validateEmail(email) {
     return re.test(email);
 }
 
+function login(){
+var flag = true;
+var user=document.getElementById("user").value;
+var pass=document.getElementById("pass").value;
+if(user.length<6){
+alert("Input a valid username");
+	document.getElementById("user").className = document.getElementById("user").className + " error";
+	flag =false;
+}
+if(user.length>=6){
+	document.getElementById("user").className = document.getElementById("user").className.replace(" error", "");
+}
+if(pass.length<6){
+alert("Input a valid password");
+	document.getElementById("pass").className = document.getElementById("pass").className + " error";
+	flag = false;
+	}
+if(pass.length>=6){
+	document.getElementById("pass1").className = document.getElementById("pass1").className.replace(" error", "");
+	
+}
+return flag;
+
+
+}
+
