@@ -575,3 +575,8 @@ table{
 h3 > i{
 	text-align: left;
 	}
+	
+/*ERROR*/
+.error {
+  border:3px solid red;
+}
