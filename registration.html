@@ -11,7 +11,7 @@
 		<h3>BUSINESS START-UPS</h3>
 	</div>
 	
-	<div id="container">
+	<div id="container_reg">
 	
 		<div class="login_reg">
 			<div class="intro_reg">
@@ -20,33 +20,44 @@
 			
 			
 	
-		<form method="get" action="/*JSP/Javascript?/Servlet*/">
+		<form method="get" action="/* JSP/Javascript?/Servlet/JSTL */">
 			<table>
 				<table>
 				<tr>
 					<tr>
-						<tr><th colspan="4"><h1><i>Registration</i></h1></th></tr>	
+						<tr><td colspan="4" align="center"><h1><i>Registration</i></h1></td></tr>	
 						
 						<div class="credentials">
 						<tr>
 							<td><b>Username: </b></td> <td><input type="text" name="userName" id="user"></td>
+							<td width= "48%"></td>
+						
 						</tr>
 						<tr>
 							<td><b>Password: </b></td> <td><input type="password" name="passWord" id="pass1"></td>
+						</tr>
+						<tr>
 							<td><b>Confirm Password: </b></td> <td><input type="password" name="RE_passWord" id="pass2"></td>
 						</tr>	
+						<tr>
 							<td><b>Email Address: </b></td> <td><input type="text" name="emailAddress" id="email1"></td>
+						</tr>
+						<tr>
 							<td><b>Confirm Email: </b></td> <td><input type="text" name="RE_emailAddress" id="email2"></td>
+						</tr>
 						<tr>
 							<td><b>Desired name of business: </b></td> <td><input type="text" name="busName" id="bus"></td>
+						</tr>
+						<tr>	
 							<td><b>Type of business: </b></td> <td><input type="text" name="busName" placeholder="Technology/Automotive/Clothing/etc." id="bustype"></td>
 						</tr>	
 						
 						</div>
 					</tr>
-				</table>	
+				</table>
+				
 				<table>
-						<tr><th colspan="2"><h3><i>Personal Information</i></h3></th></tr>
+						<tr><th colspan=""><h3><i>Personal Information</i></h3></th></tr>
 					<tr>
 						<div class="name">
 							<td><b>Last name: </b><input type="text" name="lastName" id="ln"></td>
@@ -76,11 +87,16 @@
 								<td><input type="text" name="mobileNum" placeholder="Mobile number"></td>
 								<td><input type="text" name="landlineNum" placeholder="Landline number"></td>
 								<td><input type="text" name="emailAdd" placeholder="Email Address" id="pemail"></td>
+							
 						</div>
 					</tr>
 					
 					<tr>
-						<th align="centert" colspan="4"><input type="submit" value="Submit" onclick = "return verify()" />	</th>
+							<td height="50%"><h1></h1></td>
+					</tr>
+					
+					<tr>
+						<th align="center" colspan="5"><input type="submit" value="Submit" onclick = "return verify()" />	</th>
 						
 					</tr>
 				</table>

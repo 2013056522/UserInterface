@@ -40,6 +40,18 @@ html{
 	background-color:rgba(0, 0, 0, .5);
 	text-shadow: 3px 3px #302929;
 }
+
+#container_reg{ 
+	position: absolute;
+	float: center;
+	height: 130%;
+	width: 100%;
+	color:white;
+	font-size: 27px;
+	background-color:rgba(0, 0, 0, .5);
+	text-shadow: 3px 3px #302929;
+}
+
 input{
 	font-size: 20px;
 	
@@ -75,9 +87,10 @@ input{
 	right:25%;
 	width:100%;
 	text-align: center;
-	height: 18%;
+	height: 15%;
 	top: 10%;
 	background-color: rgba(0, 0, 0, .5);
+	z-index: 0;
 	
 	}
 	
@@ -150,24 +163,24 @@ h5 > a:hover{
 	padding-left: 25px;
 	color: white;
 	font-size: 30px;
-	text-indent: 10%;
+	text-indent: 8%;
 }
 
 .footer {
 	z-index: 1;
-	background-color: rgba(0, 0, 0, .7	);
-	position: absolute;
+	background-color: rgba(0, 0, 0, .9);
+	position: fixed;
 	height: 30px;
-	width: auto;
-	top: 135%;
+	width: 100%;
+	color: white;
+	text-align: center;
 	left: 0;
 	right: 0;
+	bottom: 0;
 	-moz-box-shadow: 0 0 20px #191918;
 	-webkit-box-shadow: 0 0 20px #191918;
 	-o-box-shadow: 0 0 20px #191918;
 	box-shadow: 0 0 20px #191918;
-	text-align:center;
-	color: white;
 }
 
 .menu {
@@ -176,8 +189,7 @@ h5 > a:hover{
 	background-color:  rgba(0, 0, 0, .6);
 	height: 45px;
 	top: 8%;
-	left: 0;
-	right: 0;
+	width: 100%;
 	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
 	line-height: 75%;
 	-moz-box-shadow: 0 0 20px #191918;
@@ -185,12 +197,16 @@ h5 > a:hover{
 	-o-box-shadow: 0 0 20px #191918;
 	box-shadow: 0 0 20px #191918;
 	
+
+	
 }
 
 .menu > ul li {
 	display: inline-block;
-	text-indent: 10%;
-	text-decoration: solid
+	text-indent: 8%;
+	text-decoration: solid;
+	
+	
 	;
 }
 
@@ -201,7 +217,7 @@ h5 > a:hover{
 }
 
 .menu > ul li a {
-	padding: 11px 25px 13px 25px;
+	padding: 11px 25px 12px 25px;
 	text-decoration: none;
 	color: white;
 	}
@@ -213,7 +229,7 @@ h5 > a:hover{
 	right: 0;
 	height:100%;
 	width:100%;
-	bottom: %;
+	
 	background-color:  rgba(0, 0, 0, .5);
 	
 }
@@ -409,7 +425,7 @@ a {
 }
 	
 
-	/*Hover Here Text*/
+	/*Title Hover Text*/
 p:nth-child(1){
   top: 80%;
   left: 10%;
@@ -433,136 +449,175 @@ p:nth-child(1){
   top: -100px;
 }
 
-	/*Greetings Hover*/
+	/*Heading-info Hover*/
 #innercontentb2:hover p:nth-child(2) {
   top: 40px;
-  -webkit-transition: top 1s ease 1s;
-     -moz-transition: top 1s ease 1s;
-       -o-transition: top 1s ease 1s;
-      -ms-transition: top 1s ease 1s;
-          transition: top 1s ease 1s;
+  -webkit-transition: top 0.5s ease 0.5s;
+     -moz-transition: top 0.5s ease 0.5s;
+       -o-transition: top 0.5s ease 0.5s;
+      -ms-transition: top 0.5s ease 0.5s;
+          transition: top 0.5s ease 0.5s;
 }
 #innercontentc2:hover p:nth-child(2) {
   top: 50px;
-  -webkit-transition: top 1s ease 1s;
-     -moz-transition: top 1s ease 1s;
-       -o-transition: top 1s ease 1s;
-      -ms-transition: top 1s ease 1s;
-          transition: top 1s ease 1s;
+   -webkit-transition: top 0.5s ease 0.5s;
+     -moz-transition: top 0.5s ease 0.5s;
+       -o-transition: top 0.5s ease 0.5s;
+      -ms-transition: top 0.5s ease 0.5s;
+          transition: top 0.5s ease 0.5s;
 }
 #innercontentd2:hover p:nth-child(2) {
   top: 50px;
-  -webkit-transition: top 1s ease 1s;
-     -moz-transition: top 1s ease 1s;
-       -o-transition: top 1s ease 1s;
-      -ms-transition: top 1s ease 1s;
-          transition: top 1s ease 1s;
+   -webkit-transition: top 0.5s ease 0.5s;
+     -moz-transition: top 0.5s ease 0.5s;
+       -o-transition: top 0.5s ease 0.5s;
+      -ms-transition: top 0.5s ease 0.5s;
+          transition: top 0.5s ease 0.5s;
 }
 #innercontente2:hover p:nth-child(2) {
   top: 30px;
-  -webkit-transition: top 1s ease 1s;
-     -moz-transition: top 1s ease 1s;
-       -o-transition: top 1s ease 1s;
-      -ms-transition: top 1s ease 1s;
-          transition: top 1s ease 1s;
+   -webkit-transition: top 0.5s ease 0.5s;
+     -moz-transition: top 0.5s ease 0.5s;
+       -o-transition: top 0.5s ease 0.5s;
+      -ms-transition: top 0.5s ease 0.5s;
+          transition: top 0.5s ease 0.5s;
 }
  
-	/*How Are You? Hover*/
+	/*Info-description Hover*/
 #innercontentb2:hover p:nth-child(3) {
   top: 100px;
-  -webkit-transition: top 1s ease 2s;
-     -moz-transition: top 1s ease 2s;
-       -o-transition: top 1s ease 2s;
-      -ms-transition: top 1s ease 2s;
-          transition: top 1s ease 2s;
+    -webkit-transition: top 0.5s ease 1s;
+     -moz-transition: top 0.5s ease 1s;
+       -o-transition: top 0.5s ease 1s;
+      -ms-transition: top 0.5s ease 1s;
+          transition: top 0.5s ease 1s;
 	text-indent: 18;
 	left: 5%;
 }
 
 #innercontentb2:hover p:nth-child(4) {
   top: 215px;
-  -webkit-transition: top 1s ease 2s;
-     -moz-transition: top 1s ease 2s;
-       -o-transition: top 1s ease 2s;
-      -ms-transition: top 1s ease 2s;
-          transition: top 1s ease 2s;
+  -webkit-transition: top 1s ease 1s;
+     -moz-transition: top 1s ease 1s;
+       -o-transition: top 1s ease 1s;
+      -ms-transition: top 1s ease 1s;
+          transition: top 1s ease 1s;
 	left: 65%;
 	
 }
 
 #innercontentc2:hover p:nth-child(3) {
   top: 100px;
-  -webkit-transition: top 1s ease 2s;
-     -moz-transition: top 1s ease 2s;
-       -o-transition: top 1s ease 2s;
-      -ms-transition: top 1s ease 2s;
-          transition: top 1s ease 2s;
+  -webkit-transition: top 0.5s ease 1s;
+     -moz-transition: top 0.5s ease 1s;
+       -o-transition: top 0.5s ease 1s;
+      -ms-transition: top 0.5s ease 1s;
+          transition: top 0.5s ease 1s;
 	text-indent: 18;
 	left: 5%;	
 }
 #innercontentc2:hover p:nth-child(4) {
   top: 215px;
-  -webkit-transition: top 1s ease 2s;
-     -moz-transition: top 1s ease 2s;
-       -o-transition: top 1s ease 2s;
-      -ms-transition: top 1s ease 2s;
-          transition: top 1s ease 2s;
+	-webkit-transition: top 1s ease 1s;
+     -moz-transition: top 1s ease 1s;
+       -o-transition: top 1s ease 1s;
+      -ms-transition: top 1s ease 1s;
+          transition: top 1s ease 1s;
 	
 	left: 65%;
 }
 
 #innercontentd2:hover p:nth-child(3) {
   top: 100px;
-  -webkit-transition: top 1s ease 2s;
-     -moz-transition: top 1s ease 2s;
-       -o-transition: top 1s ease 2s;
-      -ms-transition: top 1s ease 2s;
-          transition: top 1s ease 2s;
+	-webkit-transition: top 0.5s ease 1s;
+     -moz-transition: top 0.5s ease 1s;
+       -o-transition: top 0.5s ease 1s;
+      -ms-transition: top 0.5s ease 1s;
+          transition: top 0.5s ease 1s;
 	text-indent: 18;
 	left: 5%;
 }
 #innercontentd2:hover p:nth-child(4) {
   top: 215px;
-  -webkit-transition: top 1s ease 2s;
-     -moz-transition: top 1s ease 2s;
-       -o-transition: top 1s ease 2s;
-      -ms-transition: top 1s ease 2s;
-          transition: top 1s ease 2s;
+ -webkit-transition: top 1s ease 1s;
+     -moz-transition: top 1s ease 1s;
+       -o-transition: top 1s ease 1s;
+      -ms-transition: top 1s ease 1s;
+          transition: top 1s ease 1s;
 	left: 65%;
 
 }
 
 #innercontente2:hover p:nth-child(3) {
   top: 70px;
-  -webkit-transition: top 1s ease 2s;
-     -moz-transition: top 1s ease 2s;
-       -o-transition: top 1s ease 2s;
-      -ms-transition: top 1s ease 2s;
-          transition: top 1s ease 2s;
+  -webkit-transition: top 0.5s ease 1s;
+     -moz-transition: top 0.5s ease 1s;
+       -o-transition: top 0.5s ease 1s;
+      -ms-transition: top 0.5s ease 1s;
+          transition: top 0.5s ease 1s;
 	text-indent: 18;
 	left: 5%;
 }
 #innercontente2:hover p:nth-child(4) {
   top: 215px;
-  -webkit-transition: top 1s ease 2s;
-     -moz-transition: top 1s ease 2s;
-       -o-transition: top 1s ease 2s;
-      -ms-transition: top 1s ease 2s;
-          transition: top 1s ease 2s;
+  --webkit-transition: top 1s ease 1s;
+     -moz-transition: top 1s ease 1s;
+       -o-transition: top 1s ease 1s;
+      -ms-transition: top 1s ease 1s;
+          transition: top 1s ease 1s;
 	left: 65%;
 
 }
  
 	/*Hover Out Transitions*/
 p:nth-child(3), p:nth-child(2) {
-  -webkit-transition: top 0.2s ease 0s;
-     -moz-transition: top 0.2s ease 0s;
-       -o-transition: top 0.2s ease 0s;
-      -ms-transition: top 0.2s ease 0s;
-          transition: top 0.2s ease 0s;
+  -webkit-transition: top 0.8s ease 0s;
+     -moz-transition: top 0.8s ease 0s;
+       -o-transition: top 0.8s ease 0s;
+      -ms-transition: top 0.8s ease 0s;
+          transition: top 0.8s ease 0s;
 }
 
 /*hover-effect business-END*/
+
+/*OVERLAY (INVEST BUTTON) */
+#overlay {
+     visibility: hidden;
+     position: absolute;
+     left: 0px;
+     top: 0px;
+     width:100%;
+     height:100%;
+     text-align:center;
+     z-index: 1000;
+}
+
+#overlay #InvestContainer {
+     width:100%;
+	 height:100%;
+     margin: 100px auto;
+     background-color: ;	
+	background-color:rgba(0, 0, 0, .9);
+	bottom: 20%;
+     border:1px solid #000;
+     padding:15px;
+     text-align:center;
+}
+
+#investButton{
+	position:relative;
+	top: 20%;
+	color: white;
+	background-color:rgba( 0, 0, 0, .1);
+	margin:auto;
+	width:30%;
+	
+}	
+#investButton table{
+	background-color:rgba(255, 255, 255, .1);
+}
+
+/*END*/
 
 /*REGISTRATION*/
 table{
@@ -570,6 +625,7 @@ table{
 	background-color:rgba(0, 0, 0, .4);
 	bottom: 20%;
 	top: 10%;
+	z-index: 1;
 	}
 	
 h3 > i{
@@ -579,4 +635,54 @@ h3 > i{
 /*ERROR*/
 .error {
   border:3px solid red;
+}
+
+/*ABOUT US*/
+
+#content3{
+	background-color: rgba(255, 255, 255, .8);
+	height: 40%;
+	width: 100%;
+	position: absolute;
+	top: 28%;
+	-moz-box-shadow: 0 0 20px #191918;
+	-webkit-box-shadow: 0 0 20px #191918;
+	-o-box-shadow: 0 0 20px #191918;
+	box-shadow: 0 0 20px #191918;
+	border-bottom: 7px solid black;
+}
+
+#content3 h4{
+	color: black;
+	position: absolute;
+	font-size: 30px;
+	margin-left: 20%;
+	margin-right: 20%;
+
+	text-indent: 5%;
+	top: 10%;	
+
+}
+
+#contactus{
+	position: absolute;
+	height: 30%;
+	top:68.5%;
+	width:100%;
+	background-color: rgba(255, 255, 255, .8);
+	
+}
+
+#contactHeading{
+	font-size: 30px;
+	margin-left: 10%;
+}
+
+#contactContent h6{
+	text-align: left;
+	font-size: 20px;
+}
+
+#contactIcons img{
+	height: 8%;
 }
