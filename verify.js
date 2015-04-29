@@ -38,6 +38,7 @@ if(passA.length>=6){
 		document.getElementById("pass1").className = document.getElementById("pass1").className + " error";
 		document.getElementById("pass2").className = document.getElementById("pass2").className + " error";
 	flag = false;
+	focus();
 	}
 	if(passA == passB){
 		document.getElementById("pass1").className = document.getElementById("pass1").className.replace(" error", "");
