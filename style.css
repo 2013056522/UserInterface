@@ -639,6 +639,17 @@ h3 > i{
 
 /*ABOUT US*/
 
+#container2{ 
+	position: absolute;
+	float: center;
+	height: 100%;
+	width: 100%;
+	color:black;
+	font-size: 27px;
+	background-color:rgba(0, 0, 0, .5);
+
+}
+
 #content3{
 	background-color: rgba(255, 255, 255, .8);
 	height: 40%;
@@ -681,8 +692,16 @@ h3 > i{
 #contactContent h6{
 	text-align: left;
 	font-size: 20px;
+	position: absolute;
+	top: 17%;
 }
 
-#contactIcons img{
+.contactIcons {
 	height: 8%;
+	display: inline-block;
+	position:relative;
+	bottom: 15%;
+	margin-top: 2%; 
+	top:20%;
+	
 }
