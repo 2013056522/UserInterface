@@ -112,7 +112,7 @@ h5 {
 	text-indent: 10%;
 	color: white;
 	text-decoration: none;
-
+	
 	font-size: 30px;
 }
 
@@ -251,7 +251,7 @@ h5 > a:hover{
 	position:relative;
 	height:40%;
 	width:100%;
-	background-color: #FFF2E3;
+	background-color: rgba(255, 242, 227, .9);
 	top:20%;
 
 }
@@ -290,6 +290,7 @@ h5 > a:hover{
 	height:120%	;
 	width:100%;	
 	background-color:  rgba(0, 0, 0, .5);
+
 	
 }
 
@@ -596,7 +597,7 @@ p:nth-child(3), p:nth-child(2) {
      width:100%;
 	 height:100%;
      margin: 100px auto;
-     background-color: ;	
+
 	background-color:rgba(0, 0, 0, .9);
 	bottom: 20%;
      border:1px solid #000;
@@ -604,17 +605,23 @@ p:nth-child(3), p:nth-child(2) {
      text-align:center;
 }
 
+
+
 #investButton{
 	position:relative;
-	top: 20%;
+	top: -3%;
 	color: white;
 	background-color:rgba( 0, 0, 0, .1);
 	margin:auto;
 	width:30%;
+
 	
 }	
+
 #investButton table{
 	background-color:rgba(255, 255, 255, .1);
+	
+
 }
 
 /*END*/
@@ -626,10 +633,12 @@ table{
 	bottom: 20%;
 	top: 10%;
 	z-index: 1;
+	font-family: "Trebuchet MS", san-serif, Arial, Helvetica;
 	}
 	
 h3 > i{
 	text-align: left;
+	
 	}
 	
 /*ERROR*/
@@ -651,7 +660,7 @@ h3 > i{
 }
 
 #content3{
-	background-color: rgba(255, 255, 255, .8);
+	background-color: rgba(255, 242, 227, .8);
 	height: 40%;
 	width: 100%;
 	position: absolute;
@@ -666,10 +675,10 @@ h3 > i{
 #content3 h4{
 	color: black;
 	position: absolute;
-	font-size: 30px;
+	font-size: 28px;
 	margin-left: 20%;
 	margin-right: 20%;
-
+	font-family: "Trebuchet MS", san-serif, Arial, Helvetica;
 	text-indent: 5%;
 	top: 10%;	
 
@@ -682,10 +691,11 @@ h3 > i{
 	width:100%;
 	background-color: rgba(255, 255, 255, .8);
 	
+	
 }
 
 #contactHeading{
-	font-size: 30px;
+	font-size: 32	px;
 	margin-left: 10%;
 }
 
@@ -704,4 +714,133 @@ h3 > i{
 	margin-top: 2%; 
 	top:20%;
 	
+}
+
+/* PROFILE */
+
+#profileCredentials{
+	position: absolute;
+	background-color: rgba(0, 0, 0, .8);
+	height: 130%;
+	width: 100%;
+}
+
+#container3{ 
+	position: absolute;
+	float: center;
+	height: 120%;
+	width: 100%;
+	color: white;
+	background-color:rgba(0, 0, 0, .2);
+	
+}
+
+.profileInfoContainer{
+	position: absolute;
+	background-color: rgba(255, 255, 255, .8);	
+	height: 80%;
+	width: 50%;
+	top: 13%;
+	left: 25%;
+	right: 25%;
+}
+
+.TitleBox{
+	background-color:rgba(0, 0, 0, .9);
+	width: 100%;
+	height: 30px;
+	float: center;
+	font-size: 23px;
+	text-align: center;
+	text-shadow: 3px 3px #302929;
+	font-family: "Trebuchet MS", san-serif, Arial, Helvetica;
+
+}
+
+.TitleBox2{
+	background-color:rgba(0, 0, 0, .9);
+	width: 100%;
+	height: 30px;
+
+	float: center;
+	font-size: 23px;
+	text-align: center;
+	text-shadow: 3px 3px #302929;
+	font-family: "Trebuchet MS", san-serif, Arial, Helvetica;
+
+}
+
+
+.TitleBox3{
+	background-color:rgba(0, 0, 0, .9);
+	width: 100%;
+	height: 30px;
+	float: center;
+	font-size: 23px;
+	text-align: center;
+	text-shadow: 3px 3px #302929;
+	font-family: "Trebuchet MS", san-serif, Arial, Helvetica;
+
+}
+
+
+#tableBody {
+margin-top: 5%;
+margin-left: 10%;
+margin-right: 10%;
+}
+
+#tableBody h5{
+	font-size: 11px;
+	line-height: 13px;
+	font-family: "Trebuchet MS", san-serif, Arial, Helvetica;
+	color: #000000;
+	text-align: left;
+	padding: 7px 7px;
+	display: table-cell;
+}
+
+#tableBody h4{
+	font-size: 11px;
+	ine-height: 13px;
+	font-family: "Trebuchet MS", san-serif, Arial, Helvetica;
+	padding: 7px 7px;
+	text-align: left;
+	color: #000000;
+	display: table-cell;
+}
+
+
+#tableBody h3{
+	font-size: 11px;
+	line-height: 13px;
+	font-family: "Trebuchet MS", san-serif, Arial, Helvetica;
+	color: #000000;
+	text-align: left;
+	padding: 7px 7px;
+	display: table-cell;
+}
+
+#tableBody h2{
+	font-size: 15px;
+	line-height: 13px;
+	font-family: "Trebuchet MS", san-serif, Arial, Helvetica;
+	color: #000000;
+	text-align: left;
+	padding: 7px 7px;
+	display: table-cell;
+}
+
+td{
+	display: table-cell;
+	vertical-align:inherit;
+}
+
+table{
+display: table;
+border-collapse: separate;
+border-spacing: 1px;
+border-color: gray;
+background-color: rgba(255, 255, 255, .1);	
+
 }
