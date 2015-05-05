@@ -26,12 +26,12 @@ alert("Username must be at least 6 characters long");
 if(user.length>=6){
 	document.getElementById("user").className = document.getElementById("user").className.replace(" error", "");
 }
-if(passA.length<6){
-	alert("Password must be at least 6 characters long");
+if(passA.length<6 || passA.length>12){
+	alert("Password must be 6-12 characters long");
 	document.getElementById("pass1").className = document.getElementById("pass1").className + " error";
 	flag = false;
 	}
-if(passA.length>=6){
+if(passA.length>=6 && passA.length<=12){
 	document.getElementById("pass1").className = document.getElementById("pass1").className.replace(" error", "");
 	if(passA != passB){
 		alert("Passwords do not match!");
